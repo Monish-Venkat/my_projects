@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Data Science Engineer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('background.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #b82626;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #333;
+            border-bottom: 2px solid #77aaff;
+            padding-bottom: 10px;
+        }
+        .content p {
+            line-height: 1.6em;
+        }
+        .content img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+        .content video {
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+        @media (max-width: 768px) {
+            header nav {
+                float: none;
+                text-align: center;
+            }
+            header li {
+                display: block;
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Data Science Engineer</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Engineering Student Specializing in Data Science</p>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="mon.JPG" alt="Profile Photo">
+            <p>Hello! I am Monish, a second year engineering student specializing in Data Science. I am passionate about data analysis, machine learning, and artificial intelligence. I am eager to apply my skills and knowledge to real-world problems and contribute to innovative projects.</p>
+        </div>
+    </section>
+
+    <section id="education" class="content">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Bachelor of Engineering in Data Science</p>
+            <p>New Horizon College of Engineering,Batch:2023-2027</p>
+            <p>Grade : 9.24 CGPA</p>
+            <p>Pre-University</p>
+            <p>St.Joseph's Pre University </p>
+            <p>Grade : 81.5%</p>
+        </div>
+    </section>
+
+    <section id="skills" class="content">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Data Visualization</li>
+                <li>Java</li>
+                <li>Html </li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="content">
+        <div class="container">
+            <h2>Projects</h2>
+            <p><strong>Project 1:</strong> <a href ="https://github.com/Monish-Venkat/Python-for-Data-Analytics/blob/main/Bitcoin_candlestick.ipynb">Candlestick design of bitcoin. </a></p>
+            <p><strong>Project 2:</strong><a href="https://htmlpreview.github.io/?https://github.com/Monish-Venkat/my_projects/blob/main/myportfolio.html"></a> A Portfolio website of myself.</p>
+            <p><strong>Project 3:</strong><a href ="https://github.com/Monish-Venkat/my_projects/blob/main/Alarm%20Clock ">Alarm </a></p>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: monishvenkat2005@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/monish-v-371a27299">Monish</a></p>
+            <p>GitHub: <a href="https://github.com/monish-venkat">Monish Venkat</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Monish_Portfolio</p>
+    </footer>
+</body>
+</html>
