@@ -10,13 +10,20 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
+            color: #e4d3d3;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background:linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #f0e6f6;
+}
+
+
         header {
             background: #333;
             color: #fff;
@@ -71,7 +78,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .content h2 {
-            color: #333;
+            color: #f0dddd;
             border-bottom: 2px solid #77aaff;
             padding-bottom: 10px;
         }
@@ -81,7 +88,7 @@
         .content img {
             max-width: 100px;
             height: 100;
-            display: block;
+            display: float;
             margin: 20px 0;
         }
 
@@ -110,13 +117,13 @@
             <div id="branding">
                 <h1>Data Science Engineer</h1>
             </div>
-            <nav>
+            <nav >
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li style="color:#be2b2b"><a href="#about">About</a></li>
+                    <li style="color:#333"><a href="#education">Education</a></li>
+                    <li style="color:#333"><a href="#skills">Skills</a></li>
+                    <li style="color:#333"><a href="#projects">Projects</a></li>
+                    <li style="color:#333"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -132,20 +139,33 @@
     <section id="about" class="content">
         <div class="container">
             <h2>About Me</h2>
-            <img src="mon.JPG" alt="Profile Photo">
-            <p>Hello! I am Monish, a second year engineering student specializing in Data Science. I am passionate about data analysis, machine learning, and artificial intelligence. I am eager to apply my skills and knowledge to real-world problems and contribute to innovative projects.</p>
+            <div style="overflow: hidden;">
+                <img src="mon.JPG" alt="Profile Photo" style="float: left; margin-right: 20px; max-width: 150px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <p>
+                    I’m Monish V, an enthusiastic and committed learner pursuing a Bachelor’s degree in Data Science. My academic journey has provided me with a comprehensive understanding of core programming languages, including C, Java, and Python, alongside expertise in web development technologies such as HTML, CSS, and JavaScript. Additionally, I have a strong passion for creating impactful data visualizations that communicate insights effectively.
+                </p>
+                <p>
+                    With an unwavering curiosity for the power of data, I continually refine my technical skills and explore innovative methodologies in the field of data science. I enjoy tackling complex challenges, writing efficient and maintainable code, and designing user-friendly interfaces. My ultimate aim is to apply technology and data-driven approaches to solve real-world problems and create meaningful impact.
+                    Beyond my academic pursuits, I take pride in staying up-to-date with technological advancements, engaging in collaborative projects, and combining creativity with functionality in every endeavor. I’m always excited to take on new challenges that allow me to grow and contribute to impactful projects.
+                </p>
+            </div>
         </div>
     </section>
+    
 
     <section id="education" class="content">
         <div class="container">
             <h2>Education</h2>
-            <p>Bachelor of Engineering in Data Science</p>
-            <p>New Horizon College of Engineering,Batch:2023-2027</p>
-            <p>Grade : 9.24 CGPA</p>
-            <p>Pre-University</p>
-            <p>St.Joseph's Pre University </p>
-            <p>Grade : 81.5%</p>
+            <b><p>Bachelor of Engineering in Data Science</p></b>
+            <ul>
+            <li><p>New Horizon College of Engineering,Batch:2023-2027</p></li>
+            <li><p>Grade : 9.24 CGPA</p></li>
+        </ul>
+        <b><p>Pre-University</p></b> 
+        <ul>
+            <li><p>St.Joseph's Pre University </p></li>
+            <li><p>Grade : 81.5%</p></li>
+        </ul>
         </div>
     </section>
 
@@ -169,7 +189,7 @@
         <div class="container">
             <h2>Projects</h2>
             <p><strong>Project 1:</strong> <a href ="https://github.com/Monish-Venkat/Python-for-Data-Analytics/blob/main/Bitcoin_candlestick.ipynb">Candlestick design of bitcoin. </a></p>
-            <p><strong>Project 2:</strong><a href="https://htmlpreview.github.io/?https://github.com/Monish-Venkat/my_projects/blob/main/myportfolio.html"></a> A Portfolio website of myself.</p>
+            <p><strong>Project 2:</strong><a href="https://htmlpreview.github.io/?https://github.com/Monish-Venkat/my_projects/blob/main/portfolio/mywebpage.html"></a> A Portfolio website of myself.</p>
             <p><strong>Project 3:</strong><a href ="https://github.com/Monish-Venkat/my_projects/blob/main/Alarm%20Clock ">Alarm </a></p>
         </div>
     </section>
@@ -179,7 +199,7 @@
     <section id="contact" class="content">
         <div class="container">
             <h2>Contact</h2>
-            <p>Email: monishvenkat2005@gmail.com</p>
+            <p>Email: monishvenkat2005@gmail.com </p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/monish-v-371a27299">Monish</a></p>
             <p>GitHub: <a href="https://github.com/monish-venkat">Monish Venkat</a></p>
         </div>
